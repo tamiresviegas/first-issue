@@ -1,10 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .active-pill {
-  @apply text-juniper font-semibold border-juniper;
+    @apply text-juniper font-semibold border-juniper;
 }
-.active-pill > span {
-  @apply text-juniper;
+
+.active-pill>span {
+    @apply text-juniper;
+}
+
+.true {
+    border: 2px solid #4CAF50;
+    /* Green */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.false {
+    background-color: #131212;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
 }
